@@ -138,7 +138,7 @@ for c in cnts6:
         cv2.circle(image,(cx,cy),7,(255,255,255),-1)
         cv2.putText(image,"Orange",(cx-20,cy-20),cv2.FONT_HERSHEY_SIMPLEX,0.5,(0,0,0),2)
 
-cv2.imshow("result",image) 
-cv2.waitKey(0)
+##cv2.imshow("result",image) 
+##cv2.waitKey(0)
 
 cv2.destroyAllWindows()
